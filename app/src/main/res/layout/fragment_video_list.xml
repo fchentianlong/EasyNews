@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeword.com.easynews.widget.refresh.RefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <codeword.com.easynews.widget.AutoLoadMoreRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"/>
+
+    <codeword.com.easynews.widget.ThreePointLoadingView
+        android:id="@+id/tpl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:pointColor="?attr/pointColor"/>
+
+</codeword.com.easynews.widget.refresh.RefreshLayout>
